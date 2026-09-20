@@ -1,0 +1,15 @@
+id = "kvoon.herdr-lazygit"
+name = "Lazygit"
+version = "0.1.0"
+min_herdr_version = "0.7.0"
+description = "Open lazygit on the invoking pane's git repository in a centered modal, to stage, commit, diff, and branch"
+platforms = ["linux", "macos"]
+
+[[panes]]
+id = "lazygit"
+title = "lazygit"
+platforms = ["linux", "macos"]
+placement = "popup"
+width = "100%"
+height = "100%"
+command = ["sh", "lazygit.sh"]
